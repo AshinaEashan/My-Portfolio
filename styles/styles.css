@@ -54,6 +54,9 @@ body {
         right: 0;
         transform: translateY(-50%); 
     }
+    .home-section{
+      margin-top:120px !important;
+    }
     .home-elements{
         height: 620px;
         
@@ -71,8 +74,27 @@ body {
 .nav-btn {
   box-shadow: 1px 1px 8px rgb(5, 57, 97);
 }
+.white-font{
+  color: white;
+  
+}
+.title::after{
+    content: '';
+    display: block;
+    align-items: center;
+    width: 3rem;
+    margin: 1rem auto 1.5rem;
+    border-top: 2px solid #f5ba4b;
+}
 
 
+
+
+
+
+
+
+/* Card */
 .width-for-card{
   margin-top:100px;
   width:320px;
@@ -208,3 +230,52 @@ body {
 .single_advisor_profile:focus .single_advisor_details_info p {
   color: #ffffff;
 }
+
+.feature {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: 3rem;
+  font-size: 1.5rem;
+}
+.bg-gradient-primary-to-secondary {
+  background: #1e30f3;
+  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+}
+.rounded-3 {
+  border-radius: var(--bs-border-radius-lg) !important;
+}
+.bg-primary {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+}
+.text-white {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+.me-3 {
+  margin-right: 1rem !important;
+}
+.text-gradient {
+  background: -webkit-linear-gradient(315deg, #9195c6 0%, #e21e80 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.d-inline {
+  display: inline !important;
+}
+
+.lang-circle {
+  background: #1e30f3;
+  background: linear-gradient(135deg, #f9f9f9 0%, #c0d489 100%);
+   width: 100px; 
+   height: 100px;
+   box-shadow: 1px 1px 8px rgb(195, 201, 205);
+}
+.lang-circle-2{
+  width: 77px;
+  height: 77px;
+}
+
+
