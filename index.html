@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <div class="container mt-2 glass-nav-bar fixed-top">
+    <div class="container mt-2 glass-nav-bar fixed-top ">
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid ">
                 <img src="./assets/images/Ashina Eashan-logos_black-2.png" alt="" id="logo-size">
@@ -56,7 +56,7 @@
         </nav>
     </div>
     <!-- Home Section -->
-    <div class="container home-background home-elements home-section">
+    <div class="container home-background home-elements home-section size-section">
         <div class="row justify-content-between gy-5 ">
             <div
                 class="home-items-1 col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start ">
@@ -96,7 +96,7 @@
     <!-- Home Section End-->
 
     <!-- About Me Section -->
-    <div class="container home-background mt-3">
+    <div class="container home-background mt-3 size-section">
         <div class="row mt-2 title">
             <h2 class="text-center fw-semibold white-font ">About Me</h2>
         </div>
@@ -166,7 +166,7 @@
     </div>
 
     <!-- Service Section -->
-    <div class="container home-background mt-3">
+    <div class="container home-background mt-3 size-section">
         <div class="row mt-2 title">
             <h2 class="text-center fw-semibold white-font ">Services</h2>
         </div>
@@ -176,20 +176,72 @@
                     translate ideas into stunning realities, offering UI/UX design that ignites imaginations, web
                     development that bridges functionality and beauty, and standalone applications that solve problems
                     with elegance. Let's collaborate and bring your digital dreams to life..</p>
-                <div class="col-lg-4 col-sm-6 mb-30 pb-5">
+            </div>
+            <div class="row pt-5 services-list column-gap-0 ">
+                <div class="col-lg-4 col-sm-6 g-col-6 pb-5">
                     <a class="card" href="#">
-                        <div class="box-shadow bg-white rounded-circle mx-auto text-center" style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa fa-user-circle-o fa-3x head-icon"></i></div>
+                        <div class="box-shadow bg-white rounded-circle mx-auto text-center"
+                            style="width: 90px; height: 90px; margin-top: -45px;"><i
+                                class="fa fa-user-circle-o fa-3x head-icon"></i></div>
                         <div class="card-body text-center">
-                            <h3 class="card-title pt-1">Web &amp; UI Design</h3>
-                            <p class="card-text text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p><span class="text-sm text-uppercase font-weight-bold">Learn More&nbsp;<i class="fe-icon-arrow-right"></i></span>
+                            <h3 class="card-title pt-1">UI &amp; UX Design</h3>
+                            <p class="card-text text-sm ">From wireframes to delight, I translate complex ideas
+                                into elegant and impactful UI/UX solutions. </p><span
+                                class="text-sm text-uppercase font-weight-bold"><button type="button" class="btn btn-color-global px-4 rounded-pill  nav-btn">Contact
+                                    Me</button></span>
                         </div>
                     </a>
                 </div>
-            
+                <div class="col-lg-4 col-sm-6 g-col-6 pb-5 ">
+                    <a class="card" href="#">
+                        <div class="box-shadow bg-white rounded-circle mx-auto text-center"
+                            style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa-solid fa-globe fa-3x head-icon"></i></div>
+                        <div class="card-body text-center">
+                            <h3 class="card-title pt-1">Web Development</h3>
+                            <p class="card-text text-sm ">Beauty in front, brains behind. Building scalable, secure
+                                web solutions.
+                            </p><span class="text-sm text-uppercase font-weight-bold"><button type="button" class="btn btn-color-global px-4 rounded-pill  nav-btn">Contact
+                                Me</button></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 g-col-6 pb-5 ">
+                    <a class="card" href="#">
+                        <div class="box-shadow bg-white rounded-circle mx-auto text-center"
+                            style="width: 90px; height: 90px; margin-top: -45px;"><i class="fa-solid fa-desktop fa-3x head-icon"></i></div>
+                        <div class="card-body text-center">
+                            <h3 class="card-title pt-1">Standalone Application</h3>
+                            <p class="card-text text-sm ">Building robust standalone applications that empower users and unlock new possibilities
+                            </p><span class="text-sm text-uppercase font-weight-bold"><button type="button" class="btn btn-color-global px-4 rounded-pill  nav-btn">Contact
+                                Me</button></span>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
 
     </div>
+
+    <!-- Portfolio Section -->
+    <div class="container home-background mt-3 size-section">
+        <div class="row mt-2 title">
+            <h2 class="text-center fw-semibold white-font ">Portfolio</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-app">App</li>
+                <li data-filter=".filter-card">Card</li>
+                <li data-filter=".filter-web">Web</li>
+              </ul>
+            </div>
+          </div>
+
+    </div>
+
+
+
 
 
     <script src="./js/script.js"></script>
